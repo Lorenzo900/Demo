@@ -31,5 +31,11 @@ resources = {
     "coffee": 100,
 }
 
-a = 3
+# TODO: 1. create a function that ask the user what does it want
+
+user_input = input("What would you like? (espresso/latte/cappuccino):\n").lower()
+
+machine_active = True
+
+
 
